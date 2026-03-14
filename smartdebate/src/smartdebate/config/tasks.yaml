@@ -1,0 +1,32 @@
+propose_task:
+  description: >
+    Be very convincing in presenting the argument for the motion.
+    Restrict the devate to 100 words only
+  expected_output: >
+    Your clear argument in favor of the motion, in a concise manner
+    Restrict the devate to 100 words only
+  agent: debater
+  output_file: output/propose.md
+
+oppose_task:
+  description: >
+    You are in opposition to the motion: {motion}. 
+    Be very convincing in presenting the argument against the motion.
+    Restrict the devate to 100 words only
+  expected_output: >
+    Your clear argument against the motion, in a concise manner
+    Restrict the devate to 100 words only
+  agent: debater
+  output_file: output/oppose.md
+
+decide_task:
+  description: >
+    Review the arguments presented by the debaters and decide which side is more convincing, 
+    based purely on the arguments presented.
+    Restrict the devate to 100 words only
+  expected_output: >
+    A decision on which side is more convincing and why, 
+    based purely on the arguments presented.
+    Restrict the devate to 100 words only
+  agent: judge
+  output_file: output/decide.md
