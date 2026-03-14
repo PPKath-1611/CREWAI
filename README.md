@@ -4,6 +4,10 @@ This crewAI tool is available to easily integrate LLM models and perform agentic
 
 ## AI powered SmartDebate with CrewAI - Setup Guide
 
+### Project Description:
+SmartDebate is a CrewAI project that stages an automatic, AI‑driven debate on a given topic: one agent argues for the motion, the same (or another) agent argues against it, and a separate judge agent reads both arguments and decides which side is more convincing.
+It showcases how to orchestrate multiple LLM agents and tasks (propose, oppose, decide) using CrewAI, with support for local models via Ollama and outputs saved as markdown files.
+
 ### What is CrewAI and a Crew?
 
 CrewAI is a framework for building multi-agent LLM systems where multiple specialized agents collaborate on tasks (e.g., a debater and a judge).
