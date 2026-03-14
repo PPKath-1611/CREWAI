@@ -1,0 +1,194 @@
+(.venv) p.kathavate@PNQNB0219 smartdebate % crewai run
+Running the Crew
+warning: `VIRTUAL_ENV=/Users/p.kathavate/Projects/PlayingWithMCP/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+╭─────────────────────────────────── 🚀 Crew Execution Started ───────────────────────────────────╮
+│                                                                                                 │
+│  Crew Execution Started                                                                         │
+│  Name: crew                                                                                     │
+│  ID: f454f411-6313-4f7b-9a86-b799ad9640b4                                                       │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── 📋 Task Started ────────────────────────────────────────╮
+│                                                                                                 │
+│  Task Started                                                                                   │
+│  Name: propose_task                                                                             │
+│  ID: 7befccfb-f153-4cd9-8f06-3635ca109747                                                       │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────╮
+│                                                                                                 │
+│  Agent: A compelling debater                                                                    │
+│                                                                                                 │
+│  Task: Be very convincing in presenting the argument for the motion. Restrict the devate to     │
+│  100 words only                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────╮
+│                                                                                                 │
+│  Agent: A compelling debater                                                                    │
+│                                                                                                 │
+│  Final Answer:                                                                                  │
+│  Absolutely. Here's a compelling argument *for* the motion, adhering to the 100-word limit:     │
+│                                                                                                 │
+│  Unfettered AI integration threatens the human workforce. While innovation is vital, unchecked  │
+│  automation risks mass job displacement, exacerbating inequality. A new law isn't about         │
+│  stifling progress, but *responsible* implementation. We need regulations ensuring human        │
+│  oversight, prioritizing skill development for roles *alongside* AI, and establishing clear     │
+│  accountability for AI-driven decisions. Failing to legislate now invites widespread            │
+│  unemployment, diminished worker agency, and a future where profit prioritizes over people.     │
+│  Proactive law protects livelihoods & fosters a just transition.                                │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────╮
+│                                                                                                 │
+│  Task Completed                                                                                 │
+│  Name: propose_task                                                                             │
+│  Agent: A compelling debater                                                                    │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── 📋 Task Started ────────────────────────────────────────╮
+│                                                                                                 │
+│  Task Started                                                                                   │
+│  Name: oppose_task                                                                              │
+│  ID: c66bb7c1-4f49-4125-a730-49f9147bceb2                                                       │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────╮
+│                                                                                                 │
+│  Agent: A compelling debater                                                                    │
+│                                                                                                 │
+│  Task: You are in opposition to the motion: There needs to be a new law to avoid overusage of   │
+│  AI in the workplace..  Be very convincing in presenting the argument against the motion.       │
+│  Restrict the devate to 100 words only                                                          │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────╮
+│                                                                                                 │
+│  Agent: A compelling debater                                                                    │
+│                                                                                                 │
+│  Final Answer:                                                                                  │
+│  Premature legislation stifles innovation and economic growth. AI isn't a threat, but a         │
+│  tool—one that boosts productivity, creates new roles, and addresses labor shortages. Laws      │
+│  restricting "overusage" are subjective and hinder businesses competing globally. Existing      │
+│  labor laws adequately address worker rights and safety. Focus should be on *adapting* the      │
+│  workforce through reskilling initiatives, not erecting barriers to progress. Let market        │
+│  forces – and evolving best practices – guide AI integration, not rigid, potentially damaging   │
+│  regulations. Innovation demands flexibility, and overregulation risks falling behind.          │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────╮
+│                                                                                                 │
+│  Task Completed                                                                                 │
+│  Name: oppose_task                                                                              │
+│  Agent: A compelling debater                                                                    │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── 📋 Task Started ────────────────────────────────────────╮
+│                                                                                                 │
+│  Task Started                                                                                   │
+│  Name: decide_task                                                                              │
+│  ID: cead5e0e-7f0a-4eb9-b3cd-b275f134dd40                                                       │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────╮
+│                                                                                                 │
+│  Agent: Decide the winner based on the arguments presented by the debaters. Restrict the        │
+│  devate to 100 words only                                                                       │
+│                                                                                                 │
+│  Task: Review the arguments presented by the debaters and decide which side is more             │
+│  convincing,  based purely on the arguments presented. Restrict the devate to 100 words only    │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────╮
+│                                                                                                 │
+│  Agent: Decide the winner based on the arguments presented by the debaters. Restrict the        │
+│  devate to 100 words only                                                                       │
+│                                                                                                 │
+│  Final Answer:                                                                                  │
+│  The side arguing *for* the motion is more convincing. While the opposing side highlights       │
+│  innovation and adaptation, they underestimate the potential for rapid, disruptive job          │
+│  displacement. The ‘for’ argument presents a clear rationale for proactive legislation – not    │
+│  to halt progress, but to manage it responsibly, ensuring worker wellbeing and a just           │
+│  transition. The emphasis on accountability and human oversight directly addresses potential    │
+│  harms, offering a more concrete and compelling solution than simply relying on existing laws   │
+│  and market forces which may be too slow to react to the pace of AI advancement.                │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────╮
+│                                                                                                 │
+│  Task Completed                                                                                 │
+│  Name: decide_task                                                                              │
+│  Agent: Decide the winner based on the arguments presented by the debaters. Restrict the        │
+│  devate to 100 words only                                                                       │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── Crew Completion ────────────────────────────────────────╮
+│                                                                                                 │
+│  Crew Execution Completed                                                                       │
+│  Name: crew                                                                                     │
+│  ID: f454f411-6313-4f7b-9a86-b799ad9640b4                                                       │
+│  Final Output: The side arguing *for* the motion is more convincing. While the opposing side    │
+│  highlights innovation and adaptation, they underestimate the potential for rapid, disruptive   │
+│  job displacement. The ‘for’ argument presents a clear rationale for proactive legislation –    │
+│  not to halt progress, but to manage it responsibly, ensuring worker wellbeing and a just       │
+│  transition. The emphasis on accountability and human oversight directly addresses potential    │
+│  harms, offering a more concrete and compelling solution than simply relying on existing laws   │
+│  and market forces which may be too slow to react to the pace of AI advancement.                │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+The side arguing *for* the motion is more convincing. While the opposing side highlights innovation and adaptation, they underestimate the potential for rapid, disruptive job displacement. The ‘for’ argument presents a clear rationale for proactive legislation – not to halt progress, but to manage it responsibly, ensuring worker wellbeing and a just transition. The emphasis on accountability and human oversight directly addresses potential harms, offering a more concrete and compelling solution than simply relying on existing laws and market forces which may be too slow to react to the pace of AI advancement.
+
+
+
+
+
+╭──────────────────────────────────────── Tracing Status ─────────────────────────────────────────╮
+│                                                                                                 │
+│  Info: Tracing is disabled.                                                                     │
+│                                                                                                 │
+│  To enable tracing, do any one of these:                                                        │
+│  • Set tracing=True in your Crew/Flow code                                                      │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                  │
+│  • Run: crewai traces enable                                                                    │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+(.venv) p.kathavate@PNQNB0219 smartdebate 

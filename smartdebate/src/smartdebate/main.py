@@ -8,22 +8,19 @@ from smartdebate.crew import Smartdebate
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
-# This main file is intended to be a way for you to run your
-# crew locally, so refrain from adding unnecessary logic into this file.
-# Replace with inputs you want to test with, it will automatically
-# interpolate any tasks and agents information
 
 def run():
     """
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs',
+        'motion': 'There needs to be a new law to avoid overusage of AI in the workplace.',
         'current_year': str(datetime.now().year)
     }
 
     try:
-        Smartdebate().crew().kickoff(inputs=inputs)
+        results = Smartdebate().crew().kickoff(inputs=inputs)
+        print(results.raw)
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")
 
@@ -33,7 +30,7 @@ def train():
     Train the crew for a given number of iterations.
     """
     inputs = {
-        "topic": "AI LLMs",
+        "motion": "",
         'current_year': str(datetime.now().year)
     }
     try:
@@ -57,7 +54,7 @@ def test():
     Test the crew execution and returns the results.
     """
     inputs = {
-        "topic": "AI LLMs",
+        "motion": "",
         "current_year": str(datetime.now().year)
     }
 

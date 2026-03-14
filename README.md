@@ -14,7 +14,7 @@ CrewAI is a framework for building multi-agent LLM systems where multiple specia
 - **Task**: Has a `description`, `expected_output`, `agent`, and optional `context` (outputs of other tasks) and `output_file`.
 - **Crew**: A collection of agents and tasks, orchestrated with a `process` (e.g., `Process.sequential`) and kicked off with `crew.kickoff(inputs=...)`.
 
-In your Smartdebate project, the crew is:
+In our Smartdebate project, the crew is:
 
 - **debater** agent: generates arguments for and against a motion.
 - **judge** agent: reads both sides and decides which is more convincing.
@@ -133,7 +133,7 @@ judge:
 
 - **Very small models (e.g., `gemma3:270m`)**:
   - Often **ignore instructions**, conflate roles, and **parrot prompt text**.
-  - In your case: `oppose_task` produced nearly the same text as `propose_task`, and `decide_task` just echoed `expected_output`.
+  - In our case: `oppose_task` produced nearly the same text as `propose_task`, and `decide_task` just echoed `expected_output`.
 - **Medium / large models (e.g., `gemma3:27b`, `llama3.2:3b`, `gemma2:2b/9b`)**:
   - Much better instruction-following and role separation.
   - Better at:
