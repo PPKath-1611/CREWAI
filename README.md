@@ -201,18 +201,6 @@ decide_task:
   output_file: output/decide.md
 ```
 
-### Optional: Give the Judge Actual Context
-
-Give the judge actual context (so it can see both arguments):
-
-```python
-@task
-def decide_task(self) -> Task:
-    return Task(
-        config=self.tasks_config['decide_task'],  # type: ignore[index]
-        context=[self.propose_task(), self.oppose_task()],
-    )
-```
 
 ## Common Troubleshooting Tips for CrewAI + Ollama
 
@@ -225,11 +213,6 @@ def decide_task(self) -> Task:
 
 - **Cause**: using non‑native model string (e.g., `ollama/gemma3:27b`) without LiteLLM.
 - **Fix**: `uv add 'crewai[litellm]'` or `pip install 'crewai[litellm]'`.
-
-### `KeyError: 'judge'` or similar
-
-- **Cause**: task refers to an agent key that doesn't have a matching `@agent` method name.
-- **Fix**: ensure agent method names match YAML keys exactly (e.g., `def judge(self)` for `agent: judge`).
 
 ### Tasks writing unexpected content (e.g., decide.md just shows expected_output)
 
