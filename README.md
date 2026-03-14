@@ -2,7 +2,7 @@
 
 This crewAI tool is available to easily integrate LLM models and perform agentic operations.
 
-## SmartDebate + CrewAI Setup Guide
+## AI powered SmartDebate with CrewAI - Setup Guide
 
 ### What is CrewAI and a Crew?
 
